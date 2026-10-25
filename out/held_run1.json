@@ -1,0 +1,154 @@
+{
+ "null, hot climate, post 6 C warmer": {
+  "s": 0.0,
+  "n": 100,
+  "naive": {
+   "claims": 0,
+   "insufficient": 0,
+   "bias": -0.4861881939990071
+  },
+  "reg": {
+   "claims": 3,
+   "insufficient": 0,
+   "bias": -0.0026047885622991684
+  },
+  "mvcheck": {
+   "claims": 1,
+   "insufficient": 0,
+   "bias": -0.0026047885622991684
+  }
+ },
+ "null, cold climate, post 6 C colder": {
+  "s": 0.0,
+  "n": 100,
+  "naive": {
+   "claims": 1,
+   "insufficient": 0,
+   "bias": -0.06482976531307638
+  },
+  "reg": {
+   "claims": 2,
+   "insufficient": 0,
+   "bias": -0.0015932345680559389
+  },
+  "mvcheck": {
+   "claims": 0,
+   "insufficient": 49,
+   "bias": -0.0015932345680559389
+  }
+ },
+ "null, 6-month baseline, break in post": {
+  "s": 0.0,
+  "n": 100,
+  "naive": {
+   "claims": 98,
+   "insufficient": 0,
+   "bias": 0.17409752719008786
+  },
+  "reg": {
+   "claims": 7,
+   "insufficient": 0,
+   "bias": 0.0035586242733789985
+  },
+  "mvcheck": {
+   "claims": 5,
+   "insufficient": 2,
+   "bias": 0.0035586242733789985
+  }
+ },
+ "null, unflagged closure in post": {
+  "s": 0.0,
+  "n": 100,
+  "naive": {
+   "claims": 99,
+   "insufficient": 0,
+   "bias": 0.1855808940484103
+  },
+  "reg": {
+   "claims": 100,
+   "insufficient": 0,
+   "bias": 0.07904410913181387
+  },
+  "mvcheck": {
+   "claims": 98,
+   "insufficient": 2,
+   "bias": 0.07904410913181387
+  }
+ },
+ "null, noisy meter (10%) + break": {
+  "s": 0.0,
+  "n": 100,
+  "naive": {
+   "claims": 88,
+   "insufficient": 0,
+   "bias": 0.16313844736249092
+  },
+  "reg": {
+   "claims": 35,
+   "insufficient": 0,
+   "bias": -0.011314835304904331
+  },
+  "mvcheck": {
+   "claims": 8,
+   "insufficient": 2,
+   "bias": -0.011314835304904331
+  }
+ },
+ "real 8%, hot climate": {
+  "s": 0.08,
+  "n": 100,
+  "naive": {
+   "claims": 61,
+   "insufficient": 0,
+   "bias": -0.0421703015075064
+  },
+  "reg": {
+   "claims": 100,
+   "insufficient": 0,
+   "bias": -0.0015332798694541467
+  },
+  "mvcheck": {
+   "claims": 97,
+   "insufficient": 3,
+   "bias": -0.0015332798694541467
+  }
+ },
+ "real 8%, 6-month baseline": {
+  "s": 0.08,
+  "n": 100,
+  "naive": {
+   "claims": 99,
+   "insufficient": 0,
+   "bias": 0.10510361657331765
+  },
+  "reg": {
+   "claims": 100,
+   "insufficient": 0,
+   "bias": -0.0020875424200596025
+  },
+  "mvcheck": {
+   "claims": 98,
+   "insufficient": 2,
+   "bias": -0.0020875424200596025
+  }
+ },
+ "real 8%, noisy meter": {
+  "s": 0.08,
+  "n": 100,
+  "naive": {
+   "claims": 90,
+   "insufficient": 0,
+   "bias": 0.09381079898925565
+  },
+  "reg": {
+   "claims": 70,
+   "insufficient": 0,
+   "bias": -0.008033904909223
+  },
+  "mvcheck": {
+   "claims": 11,
+   "insufficient": 2,
+   "bias": -0.008033904909223
+  }
+ }
+}

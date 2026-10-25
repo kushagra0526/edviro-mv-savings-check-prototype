@@ -1,0 +1,10 @@
+suite held, seeds 1000..1099: 'claims' = says the fix saved >= 3% (n=100 each); bias = mean(estimated - true savings), in points
+  scenario                                    true | naive claims/bias | reg claims/bias | mvcheck claims (insufficient) /bias
+  null, hot climate, post 6 C warmer            0% |    0  -48.6 |    3   -0.3 |    1 (  0)   -0.3
+  null, cold climate, post 6 C colder           0% |    1   -6.5 |    2   -0.2 |    0 ( 49)   -0.2
+  null, 6-month baseline, break in post         0% |   98  +17.4 |    7   +0.4 |    5 (  2)   +0.4
+  null, unflagged closure in post               0% |   99  +18.6 |  100   +7.9 |   98 (  2)   +7.9
+  null, noisy meter (10%) + break               0% |   88  +16.3 |   35   -1.1 |    8 (  2)   -1.1
+  real 8%, hot climate                          8% |   61   -4.2 |  100   -0.2 |   97 (  3)   -0.2
+  real 8%, 6-month baseline                     8% |   99  +10.5 |  100   -0.2 |   98 (  2)   -0.2
+  real 8%, noisy meter                          8% |   90   +9.4 |   70   -0.8 |   11 (  2)   -0.8
