@@ -1,0 +1,135 @@
+{
+ "null, same weather": {
+  "s": 0.0,
+  "n": 100,
+  "naive": {
+   "claims": 76,
+   "insufficient": 0,
+   "bias": 0.09455579888355777
+  },
+  "reg": {
+   "claims": 5,
+   "insufficient": 0,
+   "bias": 0.00019446284250964618
+  },
+  "mvcheck": {
+   "claims": 1,
+   "insufficient": 1,
+   "bias": 0.00019446284250964618
+  }
+ },
+ "null, post 5 C warmer": {
+  "s": 0.0,
+  "n": 100,
+  "naive": {
+   "claims": 100,
+   "insufficient": 0,
+   "bias": 0.29275011701810016
+  },
+  "reg": {
+   "claims": 4,
+   "insufficient": 0,
+   "bias": 0.00011096277317713233
+  },
+  "mvcheck": {
+   "claims": 2,
+   "insufficient": 0,
+   "bias": 0.00011096277317713233
+  }
+ },
+ "null, post 5 C colder": {
+  "s": 0.0,
+  "n": 100,
+  "naive": {
+   "claims": 3,
+   "insufficient": 0,
+   "bias": -0.1044566840528885
+  },
+  "reg": {
+   "claims": 3,
+   "insufficient": 0,
+   "bias": 0.00025356775895613915
+  },
+  "mvcheck": {
+   "claims": 0,
+   "insufficient": 50,
+   "bias": 0.00025356775895613915
+  }
+ },
+ "null, school break in post window": {
+  "s": 0.0,
+  "n": 100,
+  "naive": {
+   "claims": 95,
+   "insufficient": 0,
+   "bias": 0.15496889432020258
+  },
+  "reg": {
+   "claims": 11,
+   "insufficient": 0,
+   "bias": 0.00533240049128935
+  },
+  "mvcheck": {
+   "claims": 5,
+   "insufficient": 1,
+   "bias": 0.00533240049128935
+  }
+ },
+ "real 6%": {
+  "s": 0.06,
+  "n": 100,
+  "naive": {
+   "claims": 95,
+   "insufficient": 0,
+   "bias": 0.08888245095054435
+  },
+  "reg": {
+   "claims": 96,
+   "insufficient": 0,
+   "bias": 0.00018279507195911204
+  },
+  "mvcheck": {
+   "claims": 92,
+   "insufficient": 1,
+   "bias": 0.00018279507195911204
+  }
+ },
+ "real 12%": {
+  "s": 0.12,
+  "n": 100,
+  "naive": {
+   "claims": 100,
+   "insufficient": 0,
+   "bias": 0.08320910301753086
+  },
+  "reg": {
+   "claims": 100,
+   "insufficient": 0,
+   "bias": 0.00017112730140848132
+  },
+  "mvcheck": {
+   "claims": 99,
+   "insufficient": 1,
+   "bias": 0.00017112730140848132
+  }
+ },
+ "real 6%, post 5 C colder": {
+  "s": 0.06,
+  "n": 100,
+  "naive": {
+   "claims": 22,
+   "insufficient": 0,
+   "bias": -0.09818928300971509
+  },
+  "reg": {
+   "claims": 96,
+   "insufficient": 0,
+   "bias": 0.00023835369341885571
+  },
+  "mvcheck": {
+   "claims": 47,
+   "insufficient": 50,
+   "bias": 0.00023835369341885571
+  }
+ }
+}

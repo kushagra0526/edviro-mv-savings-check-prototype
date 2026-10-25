@@ -1,0 +1,9 @@
+suite dev, seeds 0..99: 'claims' = says the fix saved >= 3% (n=100 each); bias = mean(estimated - true savings), in points
+  scenario                                    true | naive claims/bias | reg claims/bias | mvcheck claims (insufficient) /bias
+  null, same weather                            0% |   76   +9.5 |    5   +0.0 |    1 (  1)   +0.0
+  null, post 5 C warmer                         0% |  100  +29.3 |    4   +0.0 |    2 (  0)   +0.0
+  null, post 5 C colder                         0% |    3  -10.4 |    3   +0.0 |    0 ( 50)   +0.0
+  null, school break in post window             0% |   95  +15.5 |   11   +0.5 |    5 (  1)   +0.5
+  real 6%                                       6% |   95   +8.9 |   96   +0.0 |   92 (  1)   +0.0
+  real 12%                                     12% |  100   +8.3 |  100   +0.0 |   99 (  1)   +0.0
+  real 6%, post 5 C colder                      6% |   22   -9.8 |   96   +0.0 |   47 ( 50)   +0.0
